@@ -18,7 +18,8 @@ public class Cliente {
     private String Cli_localidad;
     private String Cli_provincia;
     private String Cli_telefono;
-    private String Cli_email;
+    private String CliUsuario;
+    private String CliPassword;
     private int rol_id;
 
     public int getCli_id() {
@@ -49,9 +50,15 @@ public class Cliente {
         return Cli_telefono;
     }
 
-    public String getCli_email() {
-        return Cli_email;
+    public String getCliUsuario() {
+        return CliUsuario;
     }
+
+    public String getCliPassword() {
+        return CliPassword;
+    }
+
+    
 
     public int getRol_id() {
         return rol_id;
@@ -85,9 +92,15 @@ public class Cliente {
         this.Cli_telefono = Cli_telefono;
     }
 
-    public void setCli_email(String Cli_email) {
-        this.Cli_email = Cli_email;
+    public void setCliUsuario(String CliUsuario) {
+        this.CliUsuario = CliUsuario;
     }
+
+    public void setCliPassword(String CliPassword) {
+        this.CliPassword = CliPassword;
+    }
+
+    
 
     public void setRol_id(int rol_id) {
         this.rol_id = rol_id;
