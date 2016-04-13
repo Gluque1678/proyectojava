@@ -21,15 +21,18 @@ public class Consultas extends Conexion{
         Statement st = con.createStatement();
         ResultSet rs = null;
         String Consulta = "Select * from cliente";
+       
         rs = st.executeQuery(Consulta);
         
         while(rs.next())
         {
             if(user.equals(rs.getString("CliUsuario")) && pass.equals(rs.getString("CliPassword")))
+               
                 return true;
         }
   
-        return false;
+        return false; 
+        
     }
     
     // public static void main(String[] args) throws SQLException {
@@ -37,10 +40,30 @@ public class Consultas extends Conexion{
     //     System.out.println(con.Autenticacion("felipe@hotmail.com", "1234"));
     
      // }  Pruevas de consultas poniendole un usuario y contraseña
-    
+     
+   public boolean Autenticacion2(String user,String pass) throws SQLException
+    {
+        Statement st = con.createStatement();
+        ResultSet rs = null;
+        String Consulta = "Select * from administradores";
+       
+        rs = st.executeQuery(Consulta);
+        
+        while(rs.next())
+        {
+            if(user.equals(rs.getString("AdminUsuario")) && pass.equals(rs.getString("AdminPassword")))
+               
+                return true;
+        }
+  
+        return false; 
+        
     }
     
+     //public static void main(String[] args) throws SQLException {
+    // Consultas con = new Consultas();
+     //System.out.println(con.Autenticacion("felipe@hotmail.com", "1234"));
     
+      //} Pruevas de consultas poniendole un usuario y contraseña
+}
     
-    
-

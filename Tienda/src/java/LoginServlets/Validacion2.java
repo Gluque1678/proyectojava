@@ -20,7 +20,7 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author hackro
  */
-public class Validacion extends HttpServlet {
+public class Validacion2 extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -38,16 +38,16 @@ public class Validacion extends HttpServlet {
         String user = request.getParameter("user");
         String pass = request.getParameter("pass");
         
-      // pruevas haber si pasa las contraseñas/ System.out.println(user+ " "+pass);
+         //prueva haver si pasa los datos hay que ejecutarlo/ System.out.println(user+ " "+pass);
         
-       Consultas con = new Consultas();
+        Consultas con = new Consultas();
         
-        if(con.Autenticacion(user, pass))
-            response.sendRedirect("menu.jsp");
+       if(con.Autenticacion2(user, pass))
+            response.sendRedirect("menu_adm.jsp");
         else
-           response.sendRedirect("index.jsp");
+          response.sendRedirect("index_adm.jsp");
         
-        System.out.println(con.Autenticacion(user, pass));
+       System.out.println(con.Autenticacion2(user, pass));
         
         
     }
@@ -67,7 +67,7 @@ public class Validacion extends HttpServlet {
         try {
             processRequest(request, response);
         } catch (SQLException ex) {
-            Logger.getLogger(Validacion.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(Validacion2.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
 
@@ -85,7 +85,7 @@ public class Validacion extends HttpServlet {
         try {
             processRequest(request, response);
         } catch (SQLException ex) {
-            Logger.getLogger(Validacion.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(Validacion2.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
 
@@ -102,3 +102,7 @@ public class Validacion extends HttpServlet {
    
         
     }
+
+   
+        
+    

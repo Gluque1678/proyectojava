@@ -71,7 +71,7 @@
         </br></br></br></br>
        
         <section>
-            <form action="Autenticacion" method="POST">
+            <form action="Autenticacion2" method="POST">
                 
           <div class="w3-card-8 w3-dark-grey w3-margin"id="formulario" style="width:30%">
 
@@ -99,15 +99,13 @@
               <img src="img/1.jpg" alt="Norway" style="width:25%">
                  <div class="w3-container w3-center w3-purple">
                         <p>LOGUIN</p>
-                      
                  </div>
                    
                     <br></br>    
                     E-mail <input type="test" name="user" id="user" size="24"  maxlength="40">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br></br>
                     Contraseña <input type="password" name="pass" id="pass" size="20" maxlength="40">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br></br>
-                    <a href="index_adm.jsp"> 
-                    <input type="button" value="ENTRA COMO ADMINISTRADOR" onclick ="Saluda()"/></a>
-                    <input class="w3-btn w3-hover-purple w3-purple w3-large" type="submit" name="Entrar" id="Entrar" size="60" align="center" value="Entrar">
+
+                <input class="w3-btn w3-hover-purple w3-purple w3-large" type="submit" name="Entrar" id="Entrar" size="60" align="center" value="Entrar">
             </div>
 
                 

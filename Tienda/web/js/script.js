@@ -5,6 +5,6 @@
  */
 
 function Saluda() {
-    alert("LAMBORGHINI LA MEJOR MARCA DEL MUNDO");
+    alert("ENTRA COMO ADMINISTRADOR");
     
 }

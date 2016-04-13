@@ -3,7 +3,7 @@
     <servlet>
         <servlet-name>Validacion</servlet-name>
         <servlet-class>LoginServlets.Validacion</servlet-class>
-    </servlet>
+    </servlet>  
     <servlet-mapping>
         <servlet-name>Validacion</servlet-name>
         <url-pattern>/Autenticacion</url-pattern>
