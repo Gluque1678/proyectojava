@@ -3,10 +3,26 @@
     <servlet>
         <servlet-name>Validacion</servlet-name>
         <servlet-class>LoginServlets.Validacion</servlet-class>
-    </servlet>  
+    </servlet>
+    <servlet>
+        <servlet-name>RegistrarUsuarios</servlet-name>
+        <servlet-class>LoginServlets.RegistrarUsuarios</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Validacion</servlet-name>
         <url-pattern>/Autenticacion</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Validacion2</servlet-name>
+        <servlet-class>LoginServlets.Validacion2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Validacion2</servlet-name>
+        <url-pattern>/Autenticacion2</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RegistrarUsuarios</servlet-name>
+        <url-pattern>/RegistrarUsuarios</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

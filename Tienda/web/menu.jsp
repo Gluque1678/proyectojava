@@ -45,8 +45,8 @@
            <ul>
              <li><a href="menu.jsp"><span class="icon-house"></span>INICIO</a></li>
              <li><a href="productos.jsp"><span class="icon-suitcase"></span>PRODUCTOS</a></li>
-             <li><a href="#"><span class="icon-rocket"></span>TECNOLOGIA</a></li>
-             <li><a href="#"><span class="icon-earth"></span>PRECIOS</a></li>
+             <li><a href="tecnologia.jsp"><span class="icon-rocket"></span>TECNOLOGIA</a></li>
+             <li><a href="precios.jsp"><span class="icon-earth"></span>PRECIOS</a></li>
           
            </ul>
          </nav>
@@ -55,27 +55,27 @@
         
           <div class="gallery">
             <figure class="gallery-item">
-              <a href="http://www.nba.com"><img class="fotos" src="img/Lamborghini1.jpg"></a>
+              <a href="http://www.lamborghini.com/es/inicio/"><img class="fotos" src="img/Lamborghini1.jpg"></a>
             </figure>
     
             <figure class="gallery-item">
-            <a href="https://www.lebronjames.com/"> <img class="fotos" src="img/Lamborghini2.jpg"></a>
+            <a href=http://www.lamborghini.com/es/inicio/"> <img class="fotos" src="img/Lamborghini2.jpg"></a>
             </figure>
     
             <figure class="gallery-item">
-            <a href="http://www.kobebryant.com"> <img class="fotos" src="img/Lamborghini3.jpg"></a>
+            <a href="http://www.lamborghini.com/es/inicio/"> <img class="fotos" src="img/Lamborghini3.jpg"></a>
             </figure>
     
             <figure class="gallery-item">
-            <a href="http://www.michaeljordansworld.com"> <img class="fotos" src="img/Lamborghini4.jpg"></a>
+            <a href="http://www.lamborghini.com/es/inicio/"> <img class="fotos" src="img/Lamborghini4.jpg"></a>
             </figure>
     
             <figure class="gallery-item">
-            <a href="https://es.wikipedia.org/wiki/Tony_Parker"> <img class="fotos" src="img/Lamborghini5.jpg"></a>
+            <a href="http://www.lamborghini.com/es/inicio/"> <img class="fotos" src="img/Lamborghini5.jpg"></a>
             </figure>
     
             <figure class="gallery-item">
-            <a href="http://www.dennisrodman.com"> <img class="fotos" src="img/Lamborghini6.jpg"></a>
+            <a href="http://www.lamborghini.com/es/inicio/"> <img class="fotos" src="img/Lamborghini6.jpg"></a>
             </figure>
   
           </div> 
@@ -136,27 +136,27 @@ En retrospectiva, 1964 fue un año extraordinario. Nació el 350 GT La inmediata
         
             <div class="gallery">
             <figure class="gallery-item">
-              <a href="http://www.nba.com"><img class="fondo" src="img/logo3.jpg"></a>
+              <a href="http://www.lamborghini.com/es/inicio/"><img class="fondo" src="img/logo3.jpg"></a>
             </figure>
     
             <figure class="gallery-item">
-            <a href="https://www.lebronjames.com/"> <img class="fondo" src="img/logo5.jpg"></a>
+            <a href="http://www.lamborghini.com/es/inicio/"> <img class="fondo" src="img/logo5.jpg"></a>
             </figure>
     
             <figure class="gallery-item">
-            <a href="http://www.kobebryant.com"> <img class="fondo" src="img/logo6.jpg"></a>
+            <a href="http://www.lamborghini.com/es/inicio/"> <img class="fondo" src="img/logo6.jpg"></a>
             </figure>
     
             <figure class="gallery-item">
-            <a href="http://www.michaeljordansworld.com"> <img class="fondo" src="img/logo8.jpg"></a>
+            <a href="http://www.lamborghini.com/es/inicio/"> <img class="fondo" src="img/logo8.jpg"></a>
             </figure>
     
             <figure class="gallery-item">
-            <a href="https://es.wikipedia.org/wiki/Tony_Parker"> <img class="fondo" src="img/logo7.jpg"></a>
+            <a href="http://www.lamborghini.com/es/inicio/"> <img class="fondo" src="img/logo7.jpg"></a>
             </figure>
     
             <figure class="gallery-item">
-            <a href="http://www.dennisrodman.com"> <img class="fondo" src="img/logo1.jpg"></a>
+            <a href="http://www.lamborghini.com/es/inicio/"> <img class="fondo" src="img/logo1.jpg"></a>
             </figure>
   
           </div> 

@@ -4,7 +4,7 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /* 
-    Created on : 14-abr-2016, 0:19:08
+    Created on : 14-abr-2016, 22:50:51
     Author     : GERMAN
 */
 
@@ -95,6 +95,20 @@ header nav ul li span {
   border: 5px solid black;
   background-color: #FADC7C;
 } 
+
+.textoventa {
+    
+   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 30px;
+  padding: 5px;
+  border: 5px solid black;
+  background-color: #FADC7C;  
+    
+    
+    
+}
   
 
 @media screen and (max-width:1200px ) {
@@ -107,7 +121,16 @@ header nav ul li span {
   }
 
 }
- 
+ .text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 30px;
+  padding: 5px;
+  border: 5px solid black;
+  background-color: #FADC7C;
+  text-align: justify
+} 
 
   
 
@@ -159,20 +182,14 @@ header nav ul li span {
            
 } 
 
+
 footer {
 
   margin: auto;
   margin-left: 0px;
-  margin-top: 260px;
+  margin-top: 10px;
   width: 1350px;
   height: 133px;
   background:#C3C1BF ;
   
-}
-
-
-#venta1{
-    
-    display: flex;
-    
 }

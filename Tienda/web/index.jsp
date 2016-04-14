@@ -88,7 +88,7 @@
                    
                     <BR></BR>
                      <p>
-                         <button class="w3-btn w3-green">ENTRAR</button>
+                         <a href="registrarusuario.jsp"  <button class="w3-btn w3-green">ENTRAR</button></a>
                          <button class="w3-btn w3-red">SALIR</button>
                     </p>
             </div>

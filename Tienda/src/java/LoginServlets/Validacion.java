@@ -15,6 +15,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -37,8 +38,9 @@ public class Validacion extends HttpServlet {
         
         String user = request.getParameter("user");
         String pass = request.getParameter("pass");
+       // JOptionPane.showMessageDialog(null, "hola"+pass+"user"+user);
         
-      // pruevas haber si pasa las contraseñas/ System.out.println(user+ " "+pass);
+      //System.out.println(user+ " "+pass);
         
        Consultas con = new Consultas();
         

@@ -9,16 +9,21 @@
 <html>
      <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link rel="stylesheet" type="text/css" href="style1.css">
+        <!--<link rel="stylesheet" type="text/css" href="style1.css">-->
         <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+        <!--<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">-->
         <script src="js/script.js"></script>
-      
+        <link rel="stylesheet" type="text/css" href="main1.css">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <title>TIENDA VIRTUAL</title>
         
+      </head>
        
-       <!--<style>
+    </body>  
+      <header> 
+           
+        <!--<style>
         .w3-lobster {
         font-family: "Lobster", serif;
         }
@@ -31,45 +36,88 @@
        <style>
        .mySlides1 {display:none;}
        </style>
-    
-    </head>
-    
-    <body>
         
-        <header> 
+        <div class="menu_bar">
+            <a href="" class="bt-menu">Menu</a>
+        </div>
+ 
+         <nav>
+           <ul>
+             <li><a href="menu_adm.jsp"><span class="icon-house"></span>PRODUCTOS</a></li>
+             <li><a href="productos.jsp"><span class="icon-suitcase"></span>CLIENTES</a></li>
+             <li><a href="#"><span class="icon-rocket"></span>COMPRAS</a></li>
+             <li><a href="#"><span class="icon-earth"></span>FACTURAS</a></li>
+          
+           </ul>
+         </nav>
             
-             <img src="img/logo2.jpg" class="w3-round-jumbo" id="logo5" alt="Norway" style="width:40%">
-            <div class="w3-content w3-section" style="max-width:1400px">
-                
-                    <img class="mySlides" src="img/Lamborghini1.jpg" style="width:50%" id="slider">
-                    <img class="mySlides" src="img/Lamborghini2.jpg" style="width:50%" id="slider">
-                    <img class="mySlides" src="img/Lamborghini3.jpg" style="width:50%" id="slider">
-                    <img class="mySlides" src="img/Lamborghini4.jpg" style="width:50%" id="slider">
-                    <img class="mySlides" src="img/Lamborghini5.jpg" style="width:50%" id="slider">
-                    <img class="mySlides" src="img/Lamborghini6.jpg" style="width:50%" id="slider">
-                    <img class="mySlides" src="img/Lamborghini7.jpg" style="width:50%" id="slider">
-                    
-            </div>
-                    
-            
-        <script>
-            var myIndex = 0;
-            carousel();
-
-            function carousel() {
-             var i;
-             var x = document.getElementsByClassName("mySlides");
-             for (i = 0; i < x.length; i++) {
-             x[i].style.display = "none";  
-            }
-             myIndex++;
-             if (myIndex > x.length) {myIndex = 1}    
-             x[myIndex-1].style.display = "block";  
-             setTimeout(carousel, 2000);    
-            }
-        </script>
-                
-     </header>
+        </header>     
+        <div class="gallery">
+            <figure class="gallery-item">
+              <a href="http://www.nba.com"><img class="fotos" src="img/Lamborghini1.jpg"></a>
+            </figure>
+    
+            <figure class="gallery-item">
+            <a href="https://www.lebronjames.com/"> <img class="fotos" src="img/Lamborghini2.jpg"></a>
+            </figure>
+    
+            <figure class="gallery-item">
+            <a href="http://www.kobebryant.com"> <img class="fotos" src="img/Lamborghini3.jpg"></a>
+            </figure>
+    
+            <figure class="gallery-item">
+            <a href="http://www.michaeljordansworld.com"> <img class="fotos" src="img/Lamborghini4.jpg"></a>
+            </figure>
+    
+            <figure class="gallery-item">
+            <a href="https://es.wikipedia.org/wiki/Tony_Parker"> <img class="fotos" src="img/Lamborghini5.jpg"></a>
+            </figure>
+    
+            <figure class="gallery-item">
+            <a href="http://www.dennisrodman.com"> <img class="fotos" src="img/Lamborghini6.jpg"></a>
+            </figure>
+  
+          </div> 
+          
+          <section>  
+              
+              <article>
+                  
+                  
+                  
+              </article>
+               
+          </section>
+    
+            <footer>
         
+            <div class="gallery">
+            <figure class="gallery-item">
+              <a href="http://www.nba.com"><img class="fondo" src="img/logo3.jpg"></a>
+            </figure>
+    
+            <figure class="gallery-item">
+            <a href="https://www.lebronjames.com/"> <img class="fondo" src="img/logo5.jpg"></a>
+            </figure>
+    
+            <figure class="gallery-item">
+            <a href="http://www.kobebryant.com"> <img class="fondo" src="img/logo6.jpg"></a>
+            </figure>
+    
+            <figure class="gallery-item">
+            <a href="http://www.michaeljordansworld.com"> <img class="fondo" src="img/logo8.jpg"></a>
+            </figure>
+    
+            <figure class="gallery-item">
+            <a href="https://es.wikipedia.org/wiki/Tony_Parker"> <img class="fondo" src="img/logo7.jpg"></a>
+            </figure>
+    
+            <figure class="gallery-item">
+            <a href="http://www.dennisrodman.com"> <img class="fondo" src="img/logo1.jpg"></a>
+            </figure>
+  
+          </div> 
+        </footer>        
+     
     </body>
 </html>
