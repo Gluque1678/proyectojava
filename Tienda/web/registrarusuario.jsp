@@ -15,7 +15,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!--<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">-->
         <script src="js/script.js"></script>
-        <link rel="stylesheet" type="text/css" href="main1.css">
+        <link rel="stylesheet" type="text/css" href="main2.css">
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <link rel="stylesheet" type="text/css" href="formulario.css">
         

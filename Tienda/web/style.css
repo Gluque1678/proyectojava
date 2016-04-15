@@ -74,3 +74,13 @@ header {
    height: 65px;
    
 }
+
+
+#boton {
+   
+    display: flex;
+    margin-left: -10px;
+    margin-top: -280px;
+    text-align: center;
+    width: 90px;
+}

@@ -1,10 +1,5 @@
-<%-- 
-    Document   : index
-    Created on : 05-abr-2016, 11:05:05
-    Author     : GERMAN
---%>
 
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -15,7 +10,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
         <script src="js/script.js"></script>
         <body class="w3-container">
-        <title>TIENDA VIRTUAL</title>
+       
        
 
         <!--<style>
@@ -66,7 +61,11 @@
              setTimeout(carousel, 2000);    
             }
         </script>
-                
+      <p>
+             
+         <a href="index.jsp" <button id="boton" class="w3-btn w3-yellow">SALIR</button></a>
+         </p>
+                   
      </header>
         </br></br></br></br>
        
@@ -98,12 +97,12 @@
             <div class="w3-card-12 w3-margin" id="formulario2" style="width:29%">
               <img src="img/1.jpg" alt="Norway" style="width:25%">
                  <div class="w3-container w3-center w3-purple">
-                        <p>LOGUIN</p>
+                        <p>LOGIN</p>
                  </div>
                    
                     <br></br>    
                     E-mail <input type="test" name="user" id="user" size="24"  maxlength="40">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br></br>
-                    ContraseÃ±a <input type="password" name="pass" id="pass" size="20" maxlength="40">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br></br>
+                    Contraseña <input type="password" name="pass" id="pass" size="20" maxlength="40">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br></br>
 
                 <input class="w3-btn w3-hover-purple w3-purple w3-large" type="submit" name="Entrar" id="Entrar" size="60" align="center" value="Entrar">
             </div>

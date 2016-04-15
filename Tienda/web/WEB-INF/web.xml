@@ -8,6 +8,22 @@
         <servlet-name>RegistrarUsuarios</servlet-name>
         <servlet-class>LoginServlets.RegistrarUsuarios</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>MostrarUsuarios</servlet-name>
+        <servlet-class>LoginServlets.MostrarUsuarios</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>mostrar</servlet-name>
+        <servlet-class>LoginServlets.mostrar</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Cliente</servlet-name>
+        <servlet-class>LoginServlets.Cliente</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>mostrar1</servlet-name>
+        <servlet-class>LoginServlets.mostrar1</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Validacion</servlet-name>
         <url-pattern>/Autenticacion</url-pattern>
@@ -23,6 +39,22 @@
     <servlet-mapping>
         <servlet-name>RegistrarUsuarios</servlet-name>
         <url-pattern>/RegistrarUsuarios</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>MostrarUsuarios</servlet-name>
+        <url-pattern>/MostrarUsuarios</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>mostrar</servlet-name>
+        <url-pattern>/mostrar</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Cliente</servlet-name>
+        <url-pattern>/Cliente</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>mostrar1</servlet-name>
+        <url-pattern>/mostrar1</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

@@ -11,6 +11,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.ArrayList;
 
 /**
  *
@@ -77,7 +78,7 @@ public class Consultas extends Conexion{
     
     public boolean registrarCliente (Cliente cli) {
         
-        String sSQL= "INSERT INTO `Cli_nombre`, `Cli_apellidos`, `Cli_direccion`, `Cli_localidad`, `Cli_provincia`, `Cli_telefono`, `CliUsuario`, `rol_id`, `CliPassword`, `Cli_dni`, `Cli_sexo`, `Cli_comentario`) VALUES (?,?,?,?,?,?,?,?,?,?,?,?)";
+        String sSQL= "INSERT INTO cliente (Cli_nombre, Cli_apellidos, Cli_direccion, Cli_localidad, Cli_provincia, Cli_telefono, CliUsuario, rol_id, CliPassword, Cli_dni, Cli_sexo, Cli_comentario) VALUES (?,?,?,?,?,?,?,?,?,?,?,?)";
        
         try {
             
@@ -118,7 +119,45 @@ public class Consultas extends Conexion{
 
 
 
+/// Mostrar cliente
+    
+    public void mostrarClientes (ArrayList<Cliente> lista)throws SQLException{
+        
+        //Creacion del statement
+        
+        Statement st = con.createStatement ();
+        
+        //Creamos la consulta del tipo String
+        
+        String consulta = "SELECT * FROM tbl_cliente";
+        
+        //ejecutamos la query llamado rs con la consulta
+        
+        ResultSet rs = st.executeQuery(consulta);
+        
+        while(rs.next()){
+          //Creacion nuevo objeto
+            
+            Cliente ai = new Cliente ();
+            
+        //Utilizamos los setters para almacena en el objeto nuevo los getter de la
+         //   base de deatos.
+            ai.setCli_nombre(rs.getString("nombre"));
+            //System.out.println(ai.getNombre());
+            ai.setCli_apellidos(rs.getString("apellidos"));
+            ai.setCliUsuario(rs.getString("email"));
+            ai.setCliPassword(rs.getString("password"));
+            
+            lista.add(ai);
+            
+                    
+            
+            
+        }
+        }
+        
+        
+    }
 
 
-}
     

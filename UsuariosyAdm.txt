@@ -1,0 +1,8 @@
+Usuarios: felipe@hotmail.com
+
+Administradores:
+fasion4@hotmail.com
+
+Contraseña tanto usuarios como administradores:1234.
+
+https://github.com/Gluque1678/proyectojava.git

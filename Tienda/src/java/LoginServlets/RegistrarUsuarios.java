@@ -30,13 +30,13 @@ public class RegistrarUsuarios extends HttpServlet {
      * @throws IOException if an I/O error occurs
      */
       
-    protected void processRequest(HttpServletRequest request, HttpServletResponse response)
+   /** protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         PrintWriter out = response.getWriter();
         try {
             /*TODO output your page here. You may use following sample code.*/
-          out.println("<!DOCTYPE html>");
+        /**  out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
             out.println("<title>Servlet RegistrarUsuarios</title>");            
@@ -48,7 +48,7 @@ public class RegistrarUsuarios extends HttpServlet {
         } finally {
             out.close();
        }
-    }
+    }*/
 
    
 
@@ -67,7 +67,8 @@ public class RegistrarUsuarios extends HttpServlet {
         Cli.setCli_provincia(request.getParameter("provincia"));
         Cli.setCli_telefono(request.getParameter("telefono"));
         Cli.setCliUsuario(request.getParameter("Usuario"));
-        Cli.setRol_id(Integer.parseInt(request.getParameter("rol_id")));
+        //Cli.setRol_id(Integer.parseInt(request.getParameter("rol_id")));
+        Cli.setRol_id(8);
         Cli.setCliPassword(request.getParameter("Password"));
         Cli.setCli_dni(request.getParameter("dni"));
         Cli.setCli_sexo(request.getParameter("sexo"));

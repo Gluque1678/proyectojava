@@ -98,7 +98,7 @@
             <div class="w3-card-12 w3-margin" id="formulario2" style="width:29%">
               <img src="img/1.jpg" alt="Norway" style="width:25%">
                  <div class="w3-container w3-center w3-purple">
-                        <p>LOGUIN</p>
+                        <p>LOGIN</p>
                       
                  </div>
                    

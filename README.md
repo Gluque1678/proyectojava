@@ -34,3 +34,10 @@ Ademas he realizado la página productos, tecnologia y la de precios que son las 
 Para cada página he realizado una hoja de estilos en alguna he podido utilizar la misma página.
 Ahora estoy intentando hacer los inserts para que me registre los datos del formulario en la base de datos.
 Tambien hago un boton de salir en todas las páginas y inserto datos en la base de datos.
+
+
+15/04/2015
+
+He realiza un boton que me vaya a la pagina inicial en todas mis páginas. Tambien he intentado que los registros vayan a mi base de
+datos pero no lo he conseguido y me estoy peleando con el código para mostrar los datos de la base de datos para que el administrador
+pueda gestionar la aplicación. He arreglado cosas que estaban mal en los distindos css.
