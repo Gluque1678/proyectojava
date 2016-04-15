@@ -114,7 +114,10 @@
             }
         </script>
          
-        
+         <p>
+             
+         <a href="index.jsp" <button id="boton" class="w3-btn w3-Light Blue">SALIR</button></a>
+         </p>
  
             <div class="text">
            1963-1964

@@ -33,3 +33,4 @@ He realizado el login de administradores y registrarse como usuario haciendo el 
 Ademas he realizado la página productos, tecnologia y la de precios que son las páginas que podran ver los usuarios.
 Para cada página he realizado una hoja de estilos en alguna he podido utilizar la misma página.
 Ahora estoy intentando hacer los inserts para que me registre los datos del formulario en la base de datos.
+Tambien hago un boton de salir en todas las páginas y inserto datos en la base de datos.

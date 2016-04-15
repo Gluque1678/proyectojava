@@ -42,7 +42,8 @@
         <div class="menu_bar">
             <a href="" class="bt-menu">Menu</a>
         </div>
- 
+        
+       
          <nav>
            <ul>
              <li><a href="menu.jsp"><span class="icon-house"></span>INICIO</a></li>
@@ -52,7 +53,12 @@
           
            </ul>
          </nav>
-            
+         
+         <p>
+             
+         <a href="index.jsp" <button id="boton" class="w3-btn w3-Indigo">SALIR</button></a>
+         
+         </p>   
         </header>     
         
           <div class="gallery">

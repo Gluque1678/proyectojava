@@ -48,7 +48,12 @@
           
            </ul>
          </nav>
-            
+         
+         <p>
+             
+         <a href="index.jsp" <button id="boton" class="w3-btn w3-Indigo">SALIR</button></a>
+         
+         </p>      
         </header>     
         
         <div class="gallery">

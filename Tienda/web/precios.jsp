@@ -49,7 +49,11 @@
           
            </ul>
          </nav>
-            
+         <p>
+             
+         <a href="index.jsp" <button id="boton" class="w3-btn w3-Indigo">SALIR</button></a>
+         
+         </p>      
         </header>     
         
         <div class="gallery">
@@ -104,9 +108,80 @@
             <div class="w3-display-middle w3-large">Middle</div>
         </div>
 
-
-             
-             
+        <div class="text"><h2>Lamborghini Huracán</h2> </div>
+        <div class="textoventa">      
+            269.900€    
+          
+            Ocasión
+            180 km
+            2 puertas
+            06/2015 Año
+            515 kW (610 CV)
+            Gasolina 
+        </div>
+        
+         <div class="w3-display-container w3-text-white">
+           <img src="img/venta2.jpg" alt="Lights" id="venta1" style="width:70%">
+        <div class="w3-display-topleft w3-container"><p>Top Left</p>
+        
+        </div>
+             <div class="w3-display-topright w3-container"><p>Top Right</p></div>
+             <div class="w3-display-bottomleft w3-container"><p>Bottom Left</p></div>
+             <div class="w3-display-bottomright w3-container"><p>Bottom Right</p></div>
+            <div class="w3-display-middle w3-large">Middle</div>
+        </div>
+        
+        <div class="text"><h2>Lamborghini Gallardo E GEAR</h2> </div>
+        <div class="textoventa">      
+            73.900€    
+          
+            Ocasión
+            73000 km
+            2 puertas
+            02/2004 Año
+            515 kW (500 CV)
+            Gasolina 
+        </div>
+        
+        
+        <div class="w3-display-container w3-text-white">
+           <img src="img/venta3.jpg" alt="Lights" id="venta1" style="width:70%">
+        <div class="w3-display-topleft w3-container"><p>Top Left</p>
+        
+        </div>
+             <div class="w3-display-topright w3-container"><p>Top Right</p></div>
+             <div class="w3-display-bottomleft w3-container"><p>Bottom Left</p></div>
+             <div class="w3-display-bottomright w3-container"><p>Bottom Right</p></div>
+            <div class="w3-display-middle w3-large">Middle</div>
+        </div>
+        
+        
+        <div class="text"><h2> Lamborghini Aventador Roadster</h2> </div>
+        <div class="textoventa">      
+            350.000€    
+          
+            Ocasión
+            73000 km
+            2 puertas
+            07/2015 Año
+            515 kW (700 CV)
+            Gasolina 
+        </div>
+       
+        
+        <div class="w3-display-container w3-text-white">
+           <img src="img/venta4.jpg" alt="Lights" id="venta1" style="width:70%">
+        <div class="w3-display-topleft w3-container"><p>Top Left</p>
+        
+        </div>
+             <div class="w3-display-topright w3-container"><p>Top Right</p></div>
+             <div class="w3-display-bottomleft w3-container"><p>Bottom Left</p></div>
+             <div class="w3-display-bottomright w3-container"><p>Bottom Right</p></div>
+            <div class="w3-display-middle w3-large">Middle</div>
+        </div>
+        
+        
+        
          </section>
         
         

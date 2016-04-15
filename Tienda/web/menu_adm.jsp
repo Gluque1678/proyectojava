@@ -79,6 +79,10 @@
   
           </div> 
           
+         <p>
+             
+         <a href="index_adm.jsp" <button id="boton" class="w3-btn w3-Light Blue">SALIR</button></a>
+         </p>
           <section>  
               
               <article>

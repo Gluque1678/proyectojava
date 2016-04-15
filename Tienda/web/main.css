@@ -55,7 +55,7 @@ header nav ul li span {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 2px;
+  margin-top: 1px;
 }
 
 .gallery-item {
@@ -96,6 +96,7 @@ header nav ul li span {
   padding: 5px;
   border: 5px solid black;
   background-color: #FADC7C;
+  margin-top: 440px;
 } 
   
   footer {
@@ -116,4 +117,11 @@ header nav ul li span {
   
 }
 
-
+#boton {
+    display: flex;
+    margin-left: 1250px;
+    margin-top: -460px;
+    text-align: center;
+    width: 90px;
+    
+}
