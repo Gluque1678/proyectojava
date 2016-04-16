@@ -10,7 +10,6 @@
     
  <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <!--<link rel="stylesheet" type="text/css" href="style1.css">-->
         <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!--<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">-->
@@ -56,7 +55,12 @@
           
            </ul>
          </nav>
-            
+         
+          <p>
+             
+         <a href="index.jsp" <button id="boton" class="w3-btn w3-Light Blue">SALIR</button></a>
+         </p> 
+          
     </header>     
         
           <div class="gallery">
@@ -85,7 +89,6 @@
             </figure>
   
           </div> 
-          
           
           
         <section>  

@@ -4,10 +4,11 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Users/GERMAN/Documents/NetBeansProjects/proyectojava/Tienda/src/java/LoginServlets/RegistrarUsuarios.java</file>
-            <file>file:/C:/Users/GERMAN/Documents/NetBeansProjects/proyectojava/Tienda/src/java/Login/Conexion.java</file>
+            <file>file:/C:/Users/GERMAN/Documents/NetBeansProjects/proyectojava/Tienda/src/java/LoginServlets/RegistroUsuarios.java</file>
             <file>file:/C:/Users/GERMAN/Documents/NetBeansProjects/proyectojava/Tienda/src/java/Login/Consultas.java</file>
-            <file>file:/C:/Users/GERMAN/Documents/NetBeansProjects/proyectojava/Tienda/src/java/LoginServlets/MostrarUsuarios.java</file>
             <file>file:/C:/Users/GERMAN/Documents/NetBeansProjects/proyectojava/Tienda/src/java/clases/Cliente.java</file>
+            <file>file:/C:/Users/GERMAN/Documents/NetBeansProjects/proyectojava/Tienda/web/registrarusuario.jsp</file>
+            <file>file:/C:/Users/GERMAN/Documents/NetBeansProjects/proyectojava/Tienda/web/errorvista.jsp</file>
         </group>
     </open-files>
 </project-private>

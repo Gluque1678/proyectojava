@@ -24,6 +24,10 @@
         <servlet-name>mostrar1</servlet-name>
         <servlet-class>LoginServlets.mostrar1</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>RegistroUsuarios</servlet-name>
+        <servlet-class>LoginServlets.RegistroUsuarios</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Validacion</servlet-name>
         <url-pattern>/Autenticacion</url-pattern>
@@ -55,6 +59,10 @@
     <servlet-mapping>
         <servlet-name>mostrar1</servlet-name>
         <url-pattern>/mostrar1</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RegistroUsuarios</servlet-name>
+        <url-pattern>/registrousuarios.do</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

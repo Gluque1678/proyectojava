@@ -41,3 +41,9 @@ Tambien hago un boton de salir en todas las páginas y inserto datos en la base d
 He realiza un boton que me vaya a la pagina inicial en todas mis páginas. Tambien he intentado que los registros vayan a mi base de
 datos pero no lo he conseguido y me estoy peleando con el código para mostrar los datos de la base de datos para que el administrador
 pueda gestionar la aplicación. He arreglado cosas que estaban mal en los distindos css.
+
+16/04/2015
+
+He creado el boton salir en registrar usuarios y estoy intentando que los registros se me inserten en la base de datos de 
+Mysql y tambien estoy intentando que me muestre los datos en la pagina menu administradores para que pueda hacer el eliminar,modificar,
+y ver.

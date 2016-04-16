@@ -96,7 +96,7 @@ header nav ul li span {
   padding: 5px;
   border: 5px solid black;
   background-color: #FADC7C;
-  margin-top: 440px;
+  margin-top: 645px;
 } 
   
   footer {
@@ -119,8 +119,8 @@ header nav ul li span {
 
 #boton {
     display: flex;
-    margin-left: 1250px;
-    margin-top: -460px;
+    margin-left: 15px;
+    margin-top: -675px;
     text-align: center;
     width: 90px;
     
